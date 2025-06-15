@@ -1,1 +1,51 @@
+name: Deploy React App to GitHub Pages
+on:
+push:
+branch:
+       -main
+permission:
+ content:
+         write
+job:
+deploye:
+      run-on:
+            ubantu-latest
+
+steps:
+      -name: checkout repository
+       uses: Action/checkout@v3
+
+       name: setup node.js
+       uses: action/setupnode@v3
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
